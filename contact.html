@@ -1,0 +1,324 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Our Partners | Nexus Financial</title>
+    <meta
+      name="description"
+      content="Connect directly with seasoned Chartered Partners in Riyadh, Dubai, and London, or claim your free 7-day accounting delivery pilot."
+    />
+    <link rel="icon" href="./favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./CSS/contact.css" />
+  </head>
+  <body>
+    <!-- STRICTLY 10VH NAVIGATION HEADER -->
+    <header class="site-header">
+      <div class="nav-container">
+        <a href="./index.html" class="logo-group">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="logo-icon"
+          >
+            <path d="M10 12h4"></path>
+            <path d="M10 8h4"></path>
+            <path d="M14 21v-3a2 2 0 0 0-4 0v3"></path>
+            <path d="M6 10H4a2 2 0 0 0-2 2v7a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-2"></path>
+            <path d="M6 21V5a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v16"></path>
+          </svg>
+          <span>Nexus<span class="logo-accent">Financial</span></span>
+        </a>
+
+        <nav class="nav-links">
+          <a href="./index.html" class="nav-link">Home</a>
+          <a href="./services.html" class="nav-link">Services</a>
+          <a href="./about.html" class="nav-link">About Us</a>
+          <a href="./contact.html" class="nav-link active">Contact</a>
+        </nav>
+
+        <a href="./contact.html" class="btn-portal">Client Portal</a>
+
+        <button class="menu-toggle" aria-label="Toggle menu">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="28"
+            height="28"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <line x1="4" y1="6" x2="20" y2="6"></line>
+            <line x1="4" y1="12" x2="20" y2="12"></line>
+            <line x1="4" y1="18" x2="20" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <!-- CONTACT HERO -->
+      <section class="contact-hero">
+        <span class="hero-tag">Initiate Dialogue</span>
+        <h1 class="contact-title">Executive Partner Engagement</h1>
+        <p class="contact-subtitle">
+          Whether seeking full statutory audit representation or inquiring about our 7-day free delivery pod pilot, our
+          Managing Partners respond personally within four business hours.
+        </p>
+      </section>
+
+      <!-- MAIN CONTACT SECTION & FORM -->
+      <section class="contact-content-section" id="pilot">
+        <div class="contact-grid">
+          <!-- FORM SIDE -->
+          <div class="form-card">
+            <h2>Request Strategic Assessment</h2>
+            <p>Please share brief details about your corporate structure or operational requirements.</p>
+
+            <form
+              class="contact-form"
+              action="#"
+              method="POST"
+              onsubmit="
+                event.preventDefault();
+                alert('Inquiry securely transmitted to Senior Advisory Partners. We will respond within 4 hours.');
+              "
+            >
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="full-name">Full Name *</label>
+                  <input
+                    type="text"
+                    id="full-name"
+                    name="name"
+                    class="form-input"
+                    placeholder="e.g. Almir Rahman"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="company-name">Entity / Company Name *</label>
+                  <input
+                    type="text"
+                    id="company-name"
+                    name="company"
+                    class="form-input"
+                    placeholder="e.g. Horizon Global Holdings"
+                    required
+                  />
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="work-email">Executive Work Email *</label>
+                  <input
+                    type="email"
+                    id="work-email"
+                    name="email"
+                    class="form-input"
+                    placeholder="arahman@horizon.ae"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="service-interest">Primary Engagement Interest *</label>
+                  <select id="service-interest" name="service" class="form-select" required>
+                    <option value="" disabled selected>Select financial discipline...</option>
+                    <option value="pilot">Free 7-Day Bookkeeping Delivery Pilot</option>
+                    <option value="tax">International Taxation &amp; APAs</option>
+                    <option value="audit">Statutory Audit &amp; Risk Assurance</option>
+                    <option value="advisory">Corporate M&amp;A / Valuation Advisory</option>
+                    <option value="other">General Partnership Inquiry</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="message">Strategic Scope or Specific Challenges</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  class="form-textarea"
+                  placeholder="Detail any timelines, upcoming fundraises, or accounting workflow complexities..."
+                ></textarea>
+              </div>
+
+              <button type="submit" class="btn-submit">
+                <span>Transmit Confidential Inquiry</span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="18"
+                  height="18"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <line x1="22" y1="2" x2="11" y2="13"></line>
+                  <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                </svg>
+              </button>
+            </form>
+          </div>
+
+          <!-- INFO & LOCATIONS SIDE -->
+          <div class="info-side">
+            <div class="info-box">
+              <h3>Direct Partner Vault</h3>
+              <p>
+                All communications submitted via this portal bypass general screening and enter an encrypted
+                communication vault monitored exclusively by Senior CA Partners.
+              </p>
+              <div class="contact-direct">
+                <div class="direct-item">
+                  <div class="direct-icon">&#9993;</div>
+                  <span>inquiry@nexusfinancial.com</span>
+                </div>
+                <div class="direct-item">
+                  <div class="direct-icon">&#128222;</div>
+                  <span>+971 4 800 NEXUS (Dubai)</span>
+                </div>
+                <div class="direct-item">
+                  <div class="direct-icon">&#128222;</div>
+                  <span>+966 11 400 9200 (Riyadh)</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="locations-grid">
+              <div class="location-card">
+                <h4>Riyadh Financial Hub</h4>
+                <span>Kingdom of Saudi Arabia</span>
+                <p>King Abdullah Financial District (KAFD), Tower 4, Suite 1802, Riyadh</p>
+              </div>
+
+              <div class="location-card">
+                <h4>Dubai International Financial Centre</h4>
+                <span>United Arab Emirates</span>
+                <p>Al Fattan Currency House, Tower 2, Level 14, DIFC, Dubai</p>
+              </div>
+
+              <div class="location-card">
+                <h4>London Canary Wharf</h4>
+                <span>United Kingdom</span>
+                <p>One Canada Square, Level 29, London E14 5AA</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQ SECTION -->
+      <section class="faq-section">
+        <div class="faq-container">
+          <div class="section-header">
+            <h2>Frequently Addressed Queries</h2>
+            <p>Clarity regarding our operational integration, regulatory scopes, and pilot terms.</p>
+          </div>
+
+          <div class="faq-list">
+            <div class="faq-item">
+              <h3>How quickly can an outsourced delivery pod integrate into our ERP?</h3>
+              <p>
+                Because our pods consist exclusively of senior-trained professionals familiar with NetSuite, Oracle,
+                SAP, and Xero, operational integration occurs within 48 to 72 hours. We require read access and trial
+                balance exports to begin immediately.
+              </p>
+            </div>
+
+            <div class="faq-item">
+              <h3>What is the exact structure of the 7-day free pilot?</h3>
+              <p>
+                We accept one full months worth of unreconciled corporate bank statements or a messy historical
+                subsidiary file. Over 7 business days, our senior pod completes the full reconciliation and delivers a
+                CEO-ready closing schedule completely free, demonstrating our accuracy before any formal contract.
+              </p>
+            </div>
+
+            <div class="faq-item">
+              <h3>Are all statutory audits acceptable to tier-1 international banking institutions?</h3>
+              <p>
+                Yes. Nexus Financial operates strictly under International Standards on Auditing (ISA), and our signing
+                partners hold active licensing recognized across major GCC financial zones (DIFC, ADGM) and UK
+                regulatory frameworks.
+              </p>
+            </div>
+
+            <div class="faq-item">
+              <h3>How do you guarantee confidentiality for sensitive M&amp;A and payroll records?</h3>
+              <p>
+                We enforce zero-trust network protocol architectures, mandatory NDA frameworks for all assigned
+                partners, and dedicated isolated virtual workspace environments for every corporate file we manage.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <div class="logo-group" style="margin-bottom: 1.2rem">
+            <span style="color: #fff">Nexus<span class="logo-accent">Financial</span></span>
+          </div>
+          <p style="margin-bottom: 1.5rem; line-height: 1.7; color: var(--text-muted)">
+            Empowering modern institutions through uncompromising chartered accounting excellence, rigorous compliance
+            assurance, and agile outsourced financial delivery pods.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Navigation</h4>
+          <div class="footer-links">
+            <a href="./index.html">Home</a>
+            <a href="./services.html">Services Overview</a>
+            <a href="./about.html">About Our Firm</a>
+            <a href="./contact.html">Contact Partners</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Expertise Areas</h4>
+          <div class="footer-links">
+            <a href="./services.html#taxation">Corporate Taxation</a>
+            <a href="./services.html#audit">Audit & Assurance</a>
+            <a href="./services.html#advisory">Mergers & M&amp;A</a>
+            <a href="./services.html#pods">Bookkeeping Delivery Pods</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Office Hubs</h4>
+          <div class="footer-links">
+            <span>Riyadh Financial District</span>
+            <span>Dubai International Financial Centre</span>
+            <span>London Canary Wharf</span>
+            <span>inquiry@nexusfinancial.com</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Nexus Financial Chartered Accountants. All rights reserved.</p>
+        <div style="display: flex; gap: 2rem">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Engagement</a>
+          <a href="#">Security Disclosure</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
